@@ -145,7 +145,7 @@ console.groupCollapsed('WHILE');
   {
     let i = 2;
     while( i <= 10) {
-        if(i % 2 == 0) {
+        if(i % 2 === 0) {
             console.log(i);
         }
         i++;
@@ -165,7 +165,7 @@ console.groupCollapsed('WHILE');
   {
     let i = 3;
     while (i >= -9) {
-        if (i % 3 == 0) {
+        if (i % 3 === 0) {
             console.log(i);
         }
         i--;
@@ -188,7 +188,7 @@ console.groupCollapsed('WHILE');
     let i = 2;
     while(i > -11) {
       let a= i + 1;
-      if(a % 3 == 0) {
+      if(a % 3 === 0) {
         console.log(i);
       };
       i--;
@@ -453,7 +453,7 @@ console.groupCollapsed('FOR');
   console.groupCollapsed('18. Sukurkite ciklą kuris atspausdintų 2, 0, -2, -4, -6. Tikrinant ar kintamojo liekana');
   {
     for (let i = 2; i >= -6; --i) {
-      if (i % 2 == 0) {
+      if (i % 2 === 0) {
         console.log(i);
       }
     }
