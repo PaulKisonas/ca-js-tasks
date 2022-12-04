@@ -1,16 +1,5 @@
 console.groupCollapsed('1 - https://edabit.com/challenge/nuXdWHAoHv9y38sn7');
 {
-    // function sortDrinkByPrice(drinks) {
-    //     drinks.sort((a, b) => (a.price > b.price) ? 1 : -1);
-    //     return drinks.sort();
-    // };
-
-    // function sortDrinkByPrice(drinks) {
-    //     drinks.sort(function (a, b){
-    //         return a.price - b.price;
-    //     })
-    //     return drinks.sort();
-    // }
 
     function sortDrinkByPrice(drinks) {
         function byPrice(a, b){
@@ -91,11 +80,7 @@ console.groupEnd();
 
 console.groupCollapsed('4 - https://edabit.com/challenge/i6YqzHcSiPiEQKjeX');
 {
-    // function maximumScore(tileHand) {
-    //     return tileHand.reduce(
-    //     (title, score) => title + score.score, 0
-    //     )
-    // };
+ 
 
     function maximumScore(tileHand) {
         let scores = 0;
@@ -154,10 +139,7 @@ console.groupEnd();
 
 console.groupCollapsed('5 - https://edabit.com/challenge/8s2jy9hR2TAeQinKD');
 {
-    // function calculateDifference(obj, limit) {
-    //     return (Object.values(obj)).reduce((a, b) => a + b) - limit;
-    // };
-
+  
     function calculateDifference(obj, limit) {
         const valueArr = Object.values(obj)
         let sum = 0;
@@ -199,15 +181,6 @@ console.groupEnd();
 
 console.groupCollapsed('7 - https://edabit.com/challenge/QXWM2oo7rQNiyDsip');
 {
-    // function inkLevels(inks) {
-    //     return Math.min(...Object.values(inks))
-    // }
-
-    // function inkLevels(inks) {
-    // if(inks.cyan < inks.magenta && inks.cyan < inks.yellow) return ink.cyan
-    // if(inks.magenta < inks.yellow) return inks.magenta;
-    // return inks.yellow
-    // }
 
     function inkLevels(inks) {
         const valueArr = Object.values(inks);
@@ -246,21 +219,6 @@ console.groupEnd();
 
 console.groupCollapsed('8 - https://edabit.com/challenge/pLNavsePxJ87t9Nak');
 {
-    // function calculateLosses(obj) {
-    //     for (let a in obj) {
-    //         return Object.values(obj).reduce((a, c) => a + c);
-    //   }
-    //   return 'Lucky you!';
-    // }
-
-    // function calculateLosses(obj) {
-    //     const valueArr = Object.values(obj)
-    //     let sum = 0;
-    //     for (let index = 0; index < valueArr.length; index++) {
-    //         sum += valueArr[index];
-    //     }
-    //     return sum > 0 ? sum : 'Lucky you!'
-    // }
 
     function calculateLosses(obj) {
         const valueArr = Object.values(obj)
